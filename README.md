@@ -1,4 +1,4 @@
-# 👋 Hi there! I'm Sahil A. Singh  
+👋 Hi there! I'm Sahil Singh  
 
 ### 🚀 Full-Stack Developer | Generative AI & LLM Specialist  
 
