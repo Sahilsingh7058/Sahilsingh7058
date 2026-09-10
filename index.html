@@ -3,33 +3,28 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sahil Singh — AI/ML Engineer &amp; Data Scientist</title>
-<meta name="description" content="Sahil Singh — AI/ML Engineer specializing in Generative AI, LLM systems, agentic workflows, and data science." />
+<title>Sahil Singh — AI Engineer &amp; Full Stack Developer</title>
+<meta name="description" content="Sahil Singh — AI Engineer &amp; Full Stack Developer specializing in Generative AI, LLM systems, agentic workflows, and production engineering." />
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="bg-grid" aria-hidden="true"></div>
-<div class="bg-glow bg-glow-1" aria-hidden="true"></div>
-<div class="bg-glow bg-glow-2" aria-hidden="true"></div>
-<div class="bg-noise" aria-hidden="true"></div>
-
 <header class="site-header">
   <nav class="nav container">
-    <a href="#top" class="logo">SS<span>.</span></a>
+    <a href="#top" class="logo">Sahil Singh</a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="navLinks">
+      <li><a href="#top">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#contact" class="nav-cta">Contact</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -37,275 +32,314 @@
 <main id="top">
 
   <!-- HERO -->
-  <section class="hero container" id="hero">
-    <p class="eyebrow reveal">
-      <span class="pulse-dot"></span> Available for AI/ML &amp; Data Science roles
-    </p>
-    <h1 class="hero-title reveal">
-      Sahil Singh
-    </h1>
-    <p class="hero-role reveal">
-      Building <span class="grad-text">Generative AI</span> systems, <span class="grad-text">LLM</span> agents,
-      and <span class="grad-text">data-driven</span> products end to end.
-    </p>
-    <p class="hero-summary reveal">
-      AI/ML Engineer specializing in LLM application engineering, retrieval-augmented generation,
-      and applied data science. I've shipped real-time AI chat with token streaming, Human-in-the-Loop
-      agent frameworks, on-device computer vision, and AI forecasting/simulation services — owning
-      the model integration, backend, and data pipeline end to end.
-    </p>
-    <div class="hero-actions reveal">
-      <a href="#work" class="btn btn-primary">See my AI work</a>
-      <a href="#contact" class="btn btn-ghost">Get in touch</a>
-    </div>
-    <div class="hero-meta reveal">
-      <span>📍 Nashik, India</span>
-      <a href="mailto:amnsahil123@gmail.com">✉️ amnsahil123@gmail.com</a>
-      <a href="tel:+917058459412">📱 +91 7058459412</a>
-    </div>
-    <div class="hero-socials reveal">
-      <a href="https://github.com/sahilsingh09" target="_blank" rel="noopener">GitHub ↗</a>
-      <a href="https://linkedin.com/in/sahil-singh" target="_blank" rel="noopener">LinkedIn ↗</a>
+  <section class="hero" id="hero">
+    <div class="hero-inner container">
+
+      <div class="hero-copy">
+        <div class="hero-rule"></div>
+        <h1 class="hero-title">I'm Sahil, an<br>AI Engineer</h1>
+        <p class="hero-summary">
+          Building intelligent products, scalable systems and meaningful digital experiences.
+        </p>
+        <a href="#about" class="hero-cta" aria-label="Scroll to about section">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-photo-col">
+        <img class="hero-photo" src="assets/portrait.png" alt="Sahil Singh" onerror="this.parentElement.classList.add('no-photo')">
+        <div class="hero-photo-fallback" aria-hidden="true">
+          <svg width="100%" height="100%" viewBox="0 0 200 260" preserveAspectRatio="xMidYMax meet">
+            <circle cx="100" cy="88" r="58" fill="currentColor"/>
+            <path d="M10 260c0-72 40-116 90-116s90 44 90 116" fill="currentColor"/>
+          </svg>
+        </div>
+      </div>
+
+      <aside class="hero-info">
+        <div class="hero-info-block">
+          <p class="hero-info-label">About Me</p>
+          <p class="hero-info-text">AI engineer focused on building practical AI systems, automation and modern web products.</p>
+          <a href="#about" class="hero-info-link">Learn more →</a>
+        </div>
+        <div class="hero-info-block">
+          <p class="hero-info-label">My Work</p>
+          <p class="hero-info-text">Building products across AI, full-stack engineering, analytics and automation.</p>
+          <a href="#work" class="hero-info-link">Browse work →</a>
+        </div>
+        <div class="hero-info-block">
+          <p class="hero-info-label">Follow Me</p>
+          <div class="hero-info-socials">
+            <a href="https://github.com/sahilsingh09" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/sahil-singh" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a href="mailto:amnsahil123@gmail.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+      </aside>
+
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section class="section container" id="about">
-    <h2 class="section-title reveal"><span class="tag">01</span> About</h2>
-    <div class="about-grid">
-      <p class="about-text reveal">
-        I'm an AI/ML engineer focused on turning LLMs and data pipelines into production systems —
-        not demos. That means real-time token streaming instead of a spinner, retrieval pipelines
-        that actually cite sources, forecasting models wired into live business data, and computer
-        vision that runs reliably on-device. Currently building AI-native platforms as a Software
-        Developer Intern at Global Space Technology, where I own the model integration layer,
-        backend architecture, and deployment for AI-driven products in healthcare, pharma, and D2C.
-      </p>
-      <div class="stat-grid reveal">
-        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Production apps shipped</span></div>
-        <div class="stat"><span class="stat-num">9.07</span><span class="stat-label">CGPA</span></div>
-        <div class="stat"><span class="stat-num">40%</span><span class="stat-label">Manual effort cut via automation</span></div>
-        <div class="stat"><span class="stat-num">11+</span><span class="stat-label">AI/data service endpoints owned</span></div>
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2 class="about-heading">I've been building<br>digital products<br>with AI &amp; code.</h2>
+          <p class="about-text">
+            I'm an AI engineer focused on turning LLMs and data pipelines into production systems —
+            real-time AI chat with token streaming, Human-in-the-Loop agent frameworks, on-device
+            computer vision, and AI forecasting services. Currently building AI-native platforms as
+            a Software Developer Intern at Global Space Technology.
+          </p>
+          <a href="#work" class="btn-link">More about me →</a>
+        </div>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Production apps shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">9.07</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">11+</span>
+            <span class="stat-label">AI / data endpoints owned</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="worked-with">
+        <p class="worked-with-label">Previously worked on</p>
+        <div class="worked-with-row">
+          <span>Founder OS</span>
+          <span>Healthcare CRM</span>
+          <span>AI Automation</span>
+          <span>Analytics</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section class="section container" id="skills">
-    <h2 class="section-title reveal"><span class="tag">02</span> Skills</h2>
-    <div class="skills-grid">
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
 
-      <div class="skill-card reveal">
-        <div class="skill-icon">✦</div>
-        <h3>Generative AI &amp; LLMs</h3>
-        <div class="chip-row">
-          <span class="chip">LLM App Development</span>
-          <span class="chip">RAG</span>
-          <span class="chip">Vector Embeddings (MiniLM)</span>
-          <span class="chip">Prompt Engineering</span>
-          <span class="chip">SSE Token Streaming</span>
-          <span class="chip">Human-in-the-Loop Agents</span>
-          <span class="chip">Google Gemini API</span>
-          <span class="chip">Agentic Workflows</span>
+        <div class="skill-card">
+          <h3>Generative AI &amp; LLMs</h3>
+          <div class="chip-row">
+            <span class="chip">LLM App Development</span>
+            <span class="chip">RAG</span>
+            <span class="chip">Vector Embeddings</span>
+            <span class="chip">Prompt Engineering</span>
+            <span class="chip">SSE Token Streaming</span>
+            <span class="chip">Human-in-the-Loop Agents</span>
+            <span class="chip">Google Gemini API</span>
+            <span class="chip">Agentic Workflows</span>
+          </div>
         </div>
+
+        <div class="skill-card">
+          <h3>Machine Learning &amp; Computer Vision</h3>
+          <div class="chip-row">
+            <span class="chip">MediaPipe</span>
+            <span class="chip">OCR</span>
+            <span class="chip">AI Forecasting</span>
+            <span class="chip">Predictive Modeling</span>
+            <span class="chip">On-device Inference</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data Science &amp; Analytics</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Data Pipeline Automation</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>AI Engineering &amp; Infra</h3>
+          <div class="chip-row">
+            <span class="chip">FastAPI</span>
+            <span class="chip">Pydantic</span>
+            <span class="chip">SQLAlchemy</span>
+            <span class="chip">Redis</span>
+            <span class="chip">Docker</span>
+            <span class="chip">CI Pipelines</span>
+          </div>
+        </div>
+
       </div>
 
-      <div class="skill-card reveal">
-        <div class="skill-icon">◈</div>
-        <h3>Machine Learning &amp; Computer Vision</h3>
+      <div class="skills-secondary">
+        <p class="worked-with-label">Also comfortable across the full stack</p>
         <div class="chip-row">
-          <span class="chip">MediaPipe Computer Vision</span>
-          <span class="chip">OCR</span>
-          <span class="chip">AI Forecasting &amp; Simulation</span>
-          <span class="chip">Predictive Modeling</span>
-          <span class="chip">On-device Inference</span>
+          <span class="chip">React / Next.js</span>
+          <span class="chip">TypeScript</span>
+          <span class="chip">Tailwind CSS</span>
+          <span class="chip">Flutter / Dart / BLoC</span>
+          <span class="chip">Node.js / Express</span>
+          <span class="chip">PHP / Laravel</span>
+          <span class="chip">WebRTC</span>
         </div>
-      </div>
-
-      <div class="skill-card reveal">
-        <div class="skill-icon">▤</div>
-        <h3>Data Science &amp; Analytics</h3>
-        <div class="chip-row">
-          <span class="chip">Python</span>
-          <span class="chip">SQL</span>
-          <span class="chip">Data Pipeline Automation</span>
-          <span class="chip">Power BI</span>
-          <span class="chip">Excel</span>
-          <span class="chip">PostgreSQL</span>
-          <span class="chip">MySQL</span>
-          <span class="chip">MongoDB</span>
-          <span class="chip">Database Indexing &amp; Query Optimization</span>
-        </div>
-      </div>
-
-      <div class="skill-card reveal">
-        <div class="skill-icon">⌁</div>
-        <h3>AI Engineering &amp; Infra</h3>
-        <div class="chip-row">
-          <span class="chip">FastAPI</span>
-          <span class="chip">Pydantic</span>
-          <span class="chip">SQLAlchemy</span>
-          <span class="chip">Alembic</span>
-          <span class="chip">Redis</span>
-          <span class="chip">Docker &amp; Docker Compose</span>
-          <span class="chip">CI Pipelines</span>
-          <span class="chip">Profiling &amp; Benchmarking</span>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="skills-secondary reveal">
-      <p class="skills-secondary-label">Also comfortable across the full stack</p>
-      <div class="chip-row">
-        <span class="chip">React 19 / Next.js</span>
-        <span class="chip">TypeScript</span>
-        <span class="chip">Tailwind CSS</span>
-        <span class="chip">Flutter / Dart / BLoC</span>
-        <span class="chip">Clean Architecture</span>
-        <span class="chip">Node.js / Express</span>
-        <span class="chip">PHP / Laravel</span>
-        <span class="chip">JWT &amp; RBAC</span>
-        <span class="chip">WebRTC</span>
-        <span class="chip">Native Android/iOS</span>
       </div>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
-  <section class="section container" id="work">
-    <h2 class="section-title reveal"><span class="tag">03</span> Work</h2>
+  <section class="section" id="work">
+    <div class="container">
+      <p class="eyebrow">Work</p>
+      <h2 class="section-title">Experience</h2>
 
-    <div class="timeline">
+      <div class="timeline">
 
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-head">
-            <h3>Software Developer Intern — AI/ML Focus</h3>
-            <span class="timeline-date">Feb 2026 — Present</span>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Software Developer Intern — AI/ML Focus</h3>
+              <span class="timeline-date">Feb 2026 — Present</span>
+            </div>
+            <p class="timeline-org">Global Space Technology · Nashik, India</p>
+            <p class="timeline-desc">
+              Owned the AI integration layer, model-serving architecture, and data pipelines across
+              production platforms in healthcare, pharma, and D2C.
+            </p>
+
+            <div class="project">
+              <span class="project-tag">Generative AI</span>
+              <h4>AI Forecasting &amp; Budget Simulation Platform (Live)</h4>
+              <ul>
+                <li>Built the AI integration layer and FastAPI V2 services powering prediction, growth/budget simulation, manpower planning, and incentive modeling.</li>
+                <li>Eliminated the core allocation bottleneck via caching, indexing, and telemetry, validated by 15 benchmark harnesses.</li>
+              </ul>
+            </div>
+
+            <div class="project">
+              <span class="project-tag">LLM Systems</span>
+              <h4>AI Agent Client — Sole Author (In Development)</h4>
+              <ul>
+                <li>Implemented real-time AI chat with SSE token streaming against a live FastAPI backend, plus conversation persistence and server-side sync.</li>
+                <li>Designed an extensible Human-in-the-Loop agent framework and an 11-endpoint Knowledge Base module for retrieval-driven responses.</li>
+              </ul>
+            </div>
+
+            <div class="project">
+              <span class="project-tag">Computer Vision</span>
+              <h4>AI Skin Analysis App (Live: Web, Android, iOS)</h4>
+              <ul>
+                <li>Built the AI auto-capture system — face detection and facial-position validation — integrating MediaPipe computer vision across platforms.</li>
+                <li>Shipped one AI-driven codebase serving 4 client deployments with a runtime config system.</li>
+              </ul>
+            </div>
+
+            <div class="project project-secondary">
+              <span class="project-tag project-tag-secondary">Full-Stack</span>
+              <h4>AI Skin Analysis App — Client Platform (76 commits, 24 PRs, ~53K additions)</h4>
+              <ul>
+                <li>Built the Flutter client (Clean Architecture, BLoC) and designed the cross-platform auth/session architecture behind the AI features above.</li>
+              </ul>
+            </div>
+
+            <div class="project project-secondary">
+              <span class="project-tag project-tag-secondary">Full-Stack</span>
+              <h4>Metamorphosis CRM — 28% of Repository Contribution (Live)</h4>
+              <ul>
+                <li>Built the LeadSync API end to end: ingestion, validation, failure handling, replay, and an auditable processing workflow.</li>
+                <li>Built the WhatsApp/telephony (WebRTC) integration; cut database load via 5 migrations, 12 indexes, and N+1 elimination.</li>
+              </ul>
+            </div>
           </div>
-          <p class="timeline-org">Global Space Technology · Nashik, India</p>
-          <p class="timeline-desc">
-            Owned the AI integration layer, model-serving architecture, and data pipelines across
-            production platforms in healthcare, pharma, and D2C.
-          </p>
+        </div>
 
-          <div class="project">
-            <span class="project-tag">Generative AI</span>
-            <h4>AI Forecasting &amp; Budget Simulation Platform (Live)</h4>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Freelance AI &amp; Full-Stack Engineer — "H" (Founder OS)</h3>
+              <span class="timeline-date">2026 — Present</span>
+            </div>
+            <p class="timeline-org">Independent</p>
             <ul>
-              <li>Built the AI integration layer and FastAPI V2 services powering prediction, growth/budget simulation, manpower planning, and incentive modeling.</li>
-              <li>Eliminated the core allocation bottleneck via caching, indexing, and telemetry, validated by 15 benchmark harnesses.</li>
-            </ul>
-          </div>
-
-          <div class="project">
-            <span class="project-tag">LLM Systems</span>
-            <h4>AI Agent Client — Sole Author (In Development)</h4>
-            <ul>
-              <li>Implemented real-time AI chat with SSE token streaming against a live FastAPI backend, plus conversation persistence and server-side sync.</li>
-              <li>Designed an extensible Human-in-the-Loop agent framework and an 11-endpoint Knowledge Base module for retrieval-driven responses.</li>
-            </ul>
-          </div>
-
-          <div class="project">
-            <span class="project-tag">Computer Vision</span>
-            <h4>AI Skin Analysis App (Live: Web, Android, iOS)</h4>
-            <ul>
-              <li>Built the AI auto-capture system — face detection and facial-position validation — integrating MediaPipe computer vision across platforms.</li>
-              <li>Shipped one AI-driven codebase serving 4 client deployments with a runtime config system.</li>
-            </ul>
-          </div>
-
-          <div class="project project-secondary">
-            <span class="project-tag project-tag-secondary">Full-Stack</span>
-            <h4>AI Skin Analysis App — Client Platform (76 commits, 24 PRs, ~53K additions)</h4>
-            <ul>
-              <li>Built the Flutter client (Clean Architecture, BLoC) and designed the cross-platform auth/session architecture behind the AI features above.</li>
-            </ul>
-          </div>
-
-          <div class="project project-secondary">
-            <span class="project-tag project-tag-secondary">Full-Stack</span>
-            <h4>Metamorphosis CRM — 28% of Repository Contribution (Live)</h4>
-            <ul>
-              <li>Built the LeadSync API end to end: ingestion, validation, failure handling, replay, and an auditable processing workflow — the data pipeline later feeding forecasting features.</li>
-              <li>Built the WhatsApp/telephony (WebRTC) integration; cut database load via 5 migrations, 12 indexes, and N+1 elimination (64 commits, +32,777/-10,108 lines).</li>
+              <li>Building an AI co-founder platform for D2C businesses: containerized monorepo with a Next.js/React frontend, FastAPI AI backend, PostgreSQL 17, Redis, and MinIO.</li>
+              <li>Implemented hardened auth (rotating refresh tokens, reuse detection) and three-tier RBAC with tenant isolation and one-command Docker Compose deployment.</li>
             </ul>
           </div>
         </div>
-      </div>
 
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-head">
-            <h3>Freelance AI &amp; Full-Stack Engineer — "H" (Founder OS)</h3>
-            <span class="timeline-date">2026 — Present</span>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Data Analyst Intern</h3>
+              <span class="timeline-date">Jan 2025 — Feb 2025</span>
+            </div>
+            <p class="timeline-org">Remote</p>
+            <ul>
+              <li>Automated recurring data workflows using Python, SQL, and Excel, cutting manual effort by 40%, and built Power BI dashboards for management reporting.</li>
+            </ul>
           </div>
-          <p class="timeline-org">Independent</p>
-          <ul>
-            <li>Building an AI co-founder platform for D2C businesses: containerized monorepo with a Next.js/React frontend, FastAPI AI backend, PostgreSQL 17, Redis, and MinIO.</li>
-            <li>Implemented hardened auth (rotating refresh tokens, reuse detection) and three-tier RBAC with tenant isolation and one-command Docker Compose deployment.</li>
-          </ul>
         </div>
-      </div>
 
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-head">
-            <h3>Data Analyst Intern</h3>
-            <span class="timeline-date">Jan 2025 — Feb 2025</span>
-          </div>
-          <p class="timeline-org">Remote</p>
-          <ul>
-            <li>Automated recurring data workflows using Python, SQL, and Excel, cutting manual effort by 40%, and built Power BI dashboards for management reporting.</li>
-          </ul>
-        </div>
       </div>
-
     </div>
   </section>
 
   <!-- EDUCATION + ACHIEVEMENTS -->
-  <section class="section container" id="education">
-    <h2 class="section-title reveal"><span class="tag">04</span> Education &amp; Achievements</h2>
-    <div class="edu-grid">
-      <div class="edu-card reveal">
-        <h3>Bachelor of Engineering, Computer Engineering</h3>
-        <p class="edu-org">Loknete Gopinath Munde College of Engineering, SPPU</p>
-        <p class="edu-meta">Graduated 2026 · CGPA 9.07 · Final-Year SGPA 10.0 · College Topper</p>
+  <section class="section" id="education">
+    <div class="container">
+      <p class="eyebrow">Education</p>
+      <h2 class="section-title">Education &amp; Achievements</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>Bachelor of Engineering, Computer Engineering</h3>
+          <p class="edu-org">Loknete Gopinath Munde College of Engineering, SPPU</p>
+          <p class="edu-meta">Graduated 2026 · CGPA 9.07 · Final-Year SGPA 10.0 · College Topper</p>
+        </div>
+        <div class="achieve-card">
+          <ul>
+            <li>College Topper — highest academic standing in the graduating batch.</li>
+            <li>Team Lead for the final-year project and multiple hackathon teams; participant, Adobe Hackathon.</li>
+          </ul>
+        </div>
       </div>
-      <div class="achieve-card reveal">
-        <ul>
-          <li>🏆 College Topper — highest academic standing in the graduating batch.</li>
-          <li>🧑‍💼 Team Lead for the final-year project and multiple hackathon teams; participant, Adobe Hackathon.</li>
-        </ul>
-      </div>
-    </div>
 
-    <div class="cert-row reveal">
-      <span class="chip">Generative AI for Business Leaders — Udemy</span>
-      <span class="chip">Python and Data Science — CodeWithHarry</span>
-      <span class="chip">Python for Data Science A-to-Z — Udemy</span>
-      <span class="chip">TCS iON Career Edge</span>
+      <div class="cert-row">
+        <span class="chip">Generative AI for Business Leaders — Udemy</span>
+        <span class="chip">Python and Data Science — CodeWithHarry</span>
+        <span class="chip">Python for Data Science A-to-Z — Udemy</span>
+        <span class="chip">TCS iON Career Edge</span>
+      </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="section container" id="contact">
-    <h2 class="section-title reveal"><span class="tag">05</span> Contact</h2>
-    <div class="contact-box reveal">
-      <p>Open to opportunities in AI/ML engineering, Generative AI, and data science. Let's build something intelligent.</p>
-      <div class="contact-links">
-        <a class="btn btn-primary" href="mailto:amnsahil123@gmail.com">amnsahil123@gmail.com</a>
-        <a class="btn btn-ghost" href="tel:+917058459412">+91 7058459412</a>
-      </div>
-      <div class="hero-socials" style="margin-top:1.5rem;justify-content:center">
-        <a href="https://github.com/sahilsingh09" target="_blank" rel="noopener">GitHub ↗</a>
-        <a href="https://linkedin.com/in/sahil-singh" target="_blank" rel="noopener">LinkedIn ↗</a>
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section-title">Let's talk</h2>
+      <div class="contact-box">
+        <p>Open to opportunities in AI engineering and full-stack development. Let's build something intelligent.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:amnsahil123@gmail.com">amnsahil123@gmail.com</a>
+          <a class="btn btn-ghost" href="tel:+917058459412">+91 7058459412</a>
+        </div>
+        <div class="hero-info-socials" style="justify-content:center;margin-top:1.6rem;">
+          <a href="https://github.com/sahilsingh09" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/sahil-singh" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
       </div>
     </div>
   </section>
@@ -313,7 +347,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year"></span> Sahil Singh. Built with HTML, CSS &amp; a bit of JS.</p>
+  <p>&copy; <span id="year"></span> Sahil Singh.</p>
 </footer>
 
 <script src="script.js"></script>
